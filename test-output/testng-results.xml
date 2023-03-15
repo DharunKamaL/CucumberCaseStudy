@@ -1,75 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="128018" started-at="2023-03-13T16:44:02 IST" finished-at="2023-03-13T16:46:10 IST">
+  <suite name="Default suite" duration-ms="73133" started-at="2023-03-15T16:00:32 IST" finished-at="2023-03-15T16:01:45 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="128018" started-at="2023-03-13T16:44:02 IST" finished-at="2023-03-13T16:46:10 IST">
+    <test name="Default test" duration-ms="73133" started-at="2023-03-15T16:00:32 IST" finished-at="2023-03-15T16:01:45 IST">
       <class name="runners.BlazeWebAppRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="setUpClass" is-config="true" duration-ms="2398" started-at="2023-03-13T16:44:02 IST" finished-at="2023-03-13T16:44:04 IST">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="setUpClass" is-config="true" duration-ms="22165" started-at="2023-03-15T16:00:32 IST" finished-at="2023-03-15T16:00:54 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1a8df0b3]]>
+                <![CDATA[org.testng.TestRunner@5434e40c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="56013" started-at="2023-03-13T16:44:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-13T16:45:00 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="7665" started-at="2023-03-15T16:00:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-15T16:01:02 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add items to the Cart from the Home Page"]]>
+                <![CDATA["Login into an Application"]]>
               </value>
             </param>
             <param index="1">
+              <value>
+                <![CDATA["BlazeWebAppModuleTests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="9077" started-at="2023-03-15T16:01:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-15T16:01:11 IST">
+          <params>
+            <param index="0">
               <value>
                 <![CDATA["Add items to cart"]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA["BlazeWebAppModuleTests"]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="38294" started-at="2023-03-13T16:45:00 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-13T16:45:39 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="12782" started-at="2023-03-15T16:01:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-15T16:01:24 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Delete an item that existing in the cart"]]>
+                <![CDATA["Add items to cart"]]>
               </value>
             </param>
             <param index="1">
+              <value>
+                <![CDATA["BlazeWebAppModuleTests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="10081" started-at="2023-03-15T16:01:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-15T16:01:34 IST">
+          <params>
+            <param index="0">
               <value>
                 <![CDATA["Delete an item"]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA["BlazeWebAppModuleTests"]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="26797" started-at="2023-03-13T16:45:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-13T16:46:05 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="runScenario" duration-ms="2397" started-at="2023-03-15T16:01:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-15T16:01:36 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Place order"]]>
+                <![CDATA["Place an order"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Purchasing an item"]]>
+                <![CDATA["BlazeWebAppModuleTests"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="tearDownClass" is-config="true" duration-ms="4223" started-at="2023-03-13T16:46:06 IST" finished-at="2023-03-13T16:46:10 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.BlazeWebAppRunner@8b87145]" name="tearDownClass" is-config="true" duration-ms="8702" started-at="2023-03-15T16:01:37 IST" finished-at="2023-03-15T16:01:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

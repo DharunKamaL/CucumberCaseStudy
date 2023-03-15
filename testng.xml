@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BlazeWebAppSuite">
+	<test thread-count="5" name="ModuleTest">
+		<classes>
+			<class name="runners.BlazeWebAppRunner" />
+		</classes>
+	</test> <!-- ModuleTest -->
+</suite> <!-- BlazeWebAppSuite -->
