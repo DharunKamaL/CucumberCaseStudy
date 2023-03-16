@@ -115,7 +115,9 @@ public class BlazeWebAppstepDef {
 		WebElement placeOrdBtn = driver.findElement(By.xpath("//button[text()='Place Order']"));
 		wait.until(ExpectedConditions.visibilityOf(placeOrdBtn));
 		placeOrdBtn.click();
-		driver.findElement(By.id("name")).sendKeys("Dharun");
+		WebElement name = driver.findElement(By.id("name"));
+		wait.until(ExpectedConditions.elementToBeClickable(name));
+		name.sendKeys("Dharun");
 		driver.findElement(By.id("country")).sendKeys("India");
 		driver.findElement(By.id("city")).sendKeys("Chennai");
 		driver.findElement(By.id("card")).sendKeys("1234567890");
